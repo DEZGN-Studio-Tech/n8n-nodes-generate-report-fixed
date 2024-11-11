@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-generate-report",
+  "name": "n8n-nodes-generate-report-fixed",
   "version": "0.1.0",
   "description": "Fill in DocX Template with Data from JSON object",
   "keywords": [
