@@ -37,14 +37,14 @@ encodeDecodeOptions.sort((a, b) => {
 
 export class GenerateReport implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Generate Report',
-		name: 'generateReport',
+		displayName: 'Generate Report Fixed',
+		name: 'generateReportFixed',
 		icon: 'file:report_template.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Generate a report from a DocX Template and JSON data.',
 		defaults: {
-			name: 'Generate Report',
+			name: 'Generate Report Fixed',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
